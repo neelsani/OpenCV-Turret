@@ -21,7 +21,10 @@ Here is a photo:
 
 
 <img src="https://github.com/neelsani/OpenCV-Turret/blob/master/images/one.jpg?raw=true"  width="300" height="300">
+<img src="https://github.com/neelsani/OpenCV-Turret/blob/master/images/two.jpg?raw=true"  width="300" height="300">
+
 ### Pinout
+
 | Part  | Pinout |
 | ------------- | ------------- |
 | Yaw Servo  | gnd to arduino ground and negative of power supply, vcc to positive of power supply, signal to pin 9  |
