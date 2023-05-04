@@ -7,7 +7,7 @@ import time
 import sounddevice as sd
 import soundfile as sf
 # don't forget to change the serial port to suit
-board = pyfirmata.Arduino('COM7')
+board = pyfirmata.Arduino('COM5')
  
 # start an iterator thread so
 # serial buffer doesn't overflow
