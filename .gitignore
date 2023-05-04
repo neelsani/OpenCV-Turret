@@ -1,0 +1,6 @@
+/.vscode
+/persontrack.sublime-workspace
+/yolov5n.pt
+/yolov5s-cls.pt
+/yolov5s.pt
+/__pycache__
