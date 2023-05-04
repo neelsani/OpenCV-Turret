@@ -12,9 +12,9 @@ board = pyfirmata.Arduino('COM5')
 # start an iterator thread so
 # serial buffer doesn't overflow
 
-filename = 'lock.wav'
+filename = 'audios/lock.wav'
         # Extract data and sampling rate from file
-data, fs = sf.read("lock.wav", dtype='float32')
+data, fs = sf.read(filename, dtype='float32')
 # set up pin D9 as Servo Output
 pin9 = board.get_pin('d:9:s')
 pin10 = board.get_pin('d:10:s')

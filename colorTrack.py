@@ -6,7 +6,7 @@ import numpy as np
 from cvzone import FPS 
 import win32api
 import win32con
-from tracker import laserFunc, laserOff, laserOn, fire
+from ardFunc import laserFunc, laserOff, laserOn, fire
 import math
 import time 
 import threading

@@ -2,7 +2,7 @@ import cv2
 import numpy as np
 from cvzone import FPS
 from personEngine import personTrack
-from tracker import laserFunc, laserOff, laserOn, fire
+from ardFunc import laserFunc, laserOff, laserOn, fire
 import threading
 import time
 import math
