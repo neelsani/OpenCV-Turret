@@ -32,7 +32,11 @@ Here is a photo:
 | Trigger Servo  | gnd to arduino ground and negative of power supply, vcc to positive of power supply, signal to pin 11  |
 | Laser Diode  | gnd to arduino ground, signal to pin 13  |
 
-This project makes use of the pyfirmata library in arduino and python. For this project in the arduino ide simply uplaod the Standard Firmata sketch and that will be all. 
+### Arduino Sketch
+
+This project makes use of the pyfirmata library in arduino and python. For this project in the arduino ide simply upload the Standard Firmata sketch and that will be all. Here is a [guide](https://www.instructables.com/Arduino-Installing-Standard-Firmata/)
+
+
 ## Usage
 For human tracking
 ```bash
@@ -44,6 +48,10 @@ For color tracking after you run colorTrack.py simply drag and select a portion 
 python3 colorTrack.py
 
 ```
+## Demo
+
+Demo video coming soon!
+
 ## Contributing
 
 Pull requests are welcome. For major changes, please open an issue first
